@@ -24,7 +24,7 @@
 }
 
 .container__button:checked~.container__label>.header__hamburger-button {
-  background-image: url('../img/Menu Aberto.png');
+  background-image: url('../img/Menu Aberto.svg');
 }
 
 .container__button:checked~.container__label {
