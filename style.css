@@ -5,6 +5,7 @@
 @import url(styles/carrousel.css);
 @import url(styles/topics.css);
 @import url(styles/contact.css);
+@import url(styles/footer.css);
 
 :root {
   --background-color: #EBECEE; 
@@ -12,6 +13,8 @@
   --orange: #EB9B00;
   --blue: #002F52;
   --black: #000000;
+  --gray: #474646;
+  --light-gray: #858585;
   --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
   --primary-font: 'Poppins', sans-serif;
   --secondary-font: 'Josefin Sans', sans-serif;
@@ -26,9 +29,4 @@ body {
 
 hr {
   margin: 0;
-}
-
-footer {
-  background-color: var(--white);
-  padding: 1em;
 }
