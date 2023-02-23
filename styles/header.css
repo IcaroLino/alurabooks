@@ -58,6 +58,7 @@
 }
 
 .container__title,
+.container__text,
 .options {
   display: none;
 }
@@ -105,5 +106,26 @@
   .options__button:checked~.menu-list{
     display: block;
     width: auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  header {
+    padding: 0 2em;
+  }
+
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .container__text {
+    display: block;
+  }
+
+  .options {
+    margin-right: auto;
   }
 }
