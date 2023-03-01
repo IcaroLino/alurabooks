@@ -37,6 +37,10 @@ footer {
     text-decoration: none;
     margin-left: 0.6em;
   }
+
+  .footer__list__link:hover {
+    color: var(--orange);
+  }
 }
 
 @media screen and (min-width: 1728px) {
